@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "305412832498",
+    "project_id": "mach-app-16e6f",
+    "storage_bucket": "mach-app-16e6f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:305412832498:android:51c1d931d2996c1c3ee46b",
+        "android_client_info": {
+          "package_name": "com.example.mach_managed"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAB-Wb9bUDuuH4YmzpS4rv2F9jVzqU8Xa4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

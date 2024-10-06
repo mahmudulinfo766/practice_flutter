@@ -1,4 +1,4 @@
-# mach_managed
+# practice_app
 
 A new Flutter project.
 
