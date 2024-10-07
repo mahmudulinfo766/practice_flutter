@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:mach_managed/bird_game/flappy_bird_game.dart';
 import 'package:mach_managed/get_live_data.dart';
 import 'package:mach_managed/user/audio_player.dart';
+import 'package:mach_managed/user/brain_waise/sessions.dart';
 import 'package:mach_managed/user/character_list_creen.dart';
 import 'package:mach_managed/user/custom_chat_screen.dart';
 import 'package:mach_managed/user/custom_imagepicker.dart';
@@ -19,6 +20,13 @@ class PageList extends StatelessWidget {
     return Scaffold(
       body: ListView(
         children: [
+          inkWellButton(
+            title: "BrainWise",
+            onTab: () => Navigator.push(
+              context,
+              MaterialPageRoute(builder: (context) => const SessionsList()),
+            ),
+          ),
           inkWellButton(
             title: "Live Sheet Data",
             onTab: () => Navigator.push(
